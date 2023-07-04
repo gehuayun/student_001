@@ -79,6 +79,8 @@ def test_fy():
 #     def setup(self):
 #
 #     def setDowntime(self):
-test_baidu()
-test_csdn()
-test_fy()
+
+
+# test_baidu()
+# test_csdn()
+# test_fy()

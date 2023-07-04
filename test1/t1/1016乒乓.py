@@ -1,6 +1,10 @@
-"""定义按钮''
+"""
 
-'
+定义按钮''
+"""
+import sys
+
+import pygame
 
 
 def Button(screen, position, text, button_size=(200, 50)):
@@ -16,7 +20,7 @@ def Button(screen, position, text, button_size=(200, 50)):
     return screen.blit(text_render, (left + 50, top + 10))
 
 
-"""
+'''
 Function:
     开始界面
 Input:

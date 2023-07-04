@@ -1,0 +1,15 @@
+class Solution：
+#参数number：一个三位数
+    #返回值：位数颠倒
+    def reverseInteger(self,number)：
+        g = int(number/100)
+        s = int(number%100/10)
+        b = int(number%10)
+        return (100*b+10*s+g)
+#主函数
+if __name__=='__main__'
+    solution=Solution()
+    num = int(input("输入三位数字"))
+    ans = solution.reverseInteger(num)
+    print("输入：",num)
+    print("输出：",ans)

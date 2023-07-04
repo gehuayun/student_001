@@ -378,3 +378,16 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:51098/devtools/browser/836924d8-10b6-4844-8f0a-5cbf8361ff2a
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
 1665210161143	Marionette	INFO	Stopped listening on port 51107
+1675150234864	geckodriver	INFO	Listening on 127.0.0.1:57686
+1680772488304	geckodriver	INFO	Listening on 127.0.0.1:63894
+1685350072506	geckodriver	INFO	Listening on 127.0.0.1:58488
+1685351675967	geckodriver	INFO	Listening on 127.0.0.1:65300
+1685351684596	geckodriver	INFO	Listening on 127.0.0.1:65329
+1685351785930	geckodriver	INFO	Listening on 127.0.0.1:53044
+1685351887010	geckodriver	INFO	Listening on 127.0.0.1:53281
+1685409898058	geckodriver	INFO	Listening on 127.0.0.1:62294
+1685409915246	geckodriver	INFO	Listening on 127.0.0.1:62313
+1685409937068	geckodriver	INFO	Listening on 127.0.0.1:62326
+1685410051709	geckodriver	INFO	Listening on 127.0.0.1:62530
+1685410143897	geckodriver	INFO	Listening on 127.0.0.1:64847
+1685427565670	geckodriver	INFO	Listening on 127.0.0.1:53028

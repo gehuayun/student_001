@@ -4,10 +4,11 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+
 # # 不自动关闭浏览器
 # option = webdriver.ChromeOptions()
 # option.add_experimental_option("detach", True)
-#
+
 # # 将option作为参数添加到Chrome中
 # driver = webdriver.Chrome(option)
 driver = webdriver.Chrome()
@@ -25,10 +26,11 @@ driver.find_element(By.ID,'adv_keyword').send_keys('百度一下')      # 输入
 driver.find_element(By.XPATH, '//*[@id="adv-setting-8"]/input[2]').click()      # 点击搜索按钮
 sleep(3)
 d1=driver.find_element(By.ID,'kw')
-d1.clear()
+d2=driver.find_element(By.ID,'su')
+d1.clear()          # 清空搜索框
 sleep(3)
 d1.send_keys('hello word !')
 sleep(1)
-d1.send_keys(Keys.ENTER)
+d2.click()
 sleep(3)
 driver.quit()     # 关闭浏览器
