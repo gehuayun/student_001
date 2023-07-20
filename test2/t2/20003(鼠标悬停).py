@@ -27,7 +27,7 @@ driver.find_element(By.XPATH, '//*[@id="adv-setting-8"]/input[2]').click()      
 sleep(3)
 d1=driver.find_element(By.ID,'kw')
 d2=driver.find_element(By.ID,'su')
-d1.clear()          # 清空搜索框
+# d1.clear()          # 清空搜索框
 sleep(3)
 d1.send_keys('hello word !')
 sleep(1)
