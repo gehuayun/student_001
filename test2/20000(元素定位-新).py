@@ -16,7 +16,10 @@ ActionChains(driver).move_to_element(el).perform()  # 鼠标悬停
 
 
 setTimeout(function(){debugger},3000)
-#在控制台输入命令3秒内移动鼠标至悬停弹窗 页面会自动暂停
+            #在控制台输入命令3秒内移动鼠标至悬停弹窗 页面会自动暂停
+
+
+            鼠标悬停到标签上后，在Sources中按Ctrl + \ 组合键，进入debug模式，动效JS会停止继续执行
 
 click()     # 鼠标左击点击一下
 send_keys()   # 在输入框内输入信息
@@ -62,25 +65,78 @@ driver.maximize_window()
 最新打开的窗口放在数组的末尾，
 这时我们就可以定位到最新打开的那个窗口了。
 
+1.关闭浏览器全部标签页                                            driver.quit()
+2.关闭当前标签页（从标签页A打开新的标签页B，关闭标签页A）                 driver.close()
+3.关闭当前标签页（从标签页A打开新的标签页B，关闭标签页B）
+可利用浏览器自带的快捷方式对打开的标签进行关闭
+Firefox自身的快捷键分别为：
+Ctrl+t 新建tab
+Ctrl+w 关闭tab
+Ctrl+Tab /Ctrl+Page_Up 定位当前标签页的下一个标签页
+Ctrl+Shift+Tab/Ctrl+Page_Down 定位当前标签页的前一个标签页
+Ctrl+[数字键1-8] 定位所有标签页中最前的第[1-8]个
+Ctrl+数字键9 定位最后一个标签页
+注：如果是在一些Linux发行版系统中,比如Ubuntu,需要将Ctrl键换成Alt键
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+#新建标签页
+ActionChains(browser).key_down(Keys.CONTROL).send_keys("t").key_up(Keys.CONTROL).perform()
+# 关闭标签页
+ActionChains(browser).key_down(Keys.CONTROL).send_keys("w").key_up(Keys.CONTROL).perform()
+4.标签页切换
+from selenium import webdriver
+browser=webdriver.Firefox()
+browser.get('xxxxx')
+# 获取当前窗口句柄（窗口A）
+handle = browser.current_window_handle
+# 打开一个新的窗口
+browser.find_element_by_id('xx').click()
+# 获取当前所有窗口句柄（窗口A、B）
+handles = browser.window_handles                #################################
+# 对窗口进行遍历
+for newhandle in handles:
+# 筛选新打开的窗口B
+if newhandle!=handle:
+# 切换到新打开的窗口B
+browser.switch_to.window(newhandle)
+# 在新打开的窗口B中操作
+browser.find_element_by_id('xx').click()
+# 关闭当前窗口B
+browser.close()
+#切换回窗口A
+browser.switch_to.window(handles[0])            ##########################
 # 获取打开的多个窗口句柄
-windows = driver.window_handles
+windows = driver.window_handles             ######################
 # 切换到当前最新打开的窗口
-driver.switch_to.window(windows[-1])
+driver.switch_to.window(windows[-1])            ##############
+
+driver.maximize_window()  # 最大化浏览器
+driver.set_window_size(w,h)  # 设置浏览器大小 单位像素 【了解】
+driver.set_window_position(x,y)  # 设置浏览器位置  【了解】
+driver.back() # 后退操作
+driver.forward() # 前进操作
+driver.refrensh() # 刷新操作
+driver.close() # 关闭当前主窗口（主窗口：默认启动那个界面，就是主窗口）
+driver.quit() # 关闭driver对象启动的全部页面
+driver.title # 获取当前页面title信息
+driver.current_url # 获取当前页面url信息
+
 
 常见操作
 webdriver中的常见操作有
-方法	            描述
-send_keys()	        模拟输入指定内容
-clear()	            清除文本内容
-is_displayed()	    判断该元素是否可见
-get_attribute()	    获取标签属性值
-size	            返回元素的尺寸
-text	            返回元素文本
+方法           描述
+send_keys()       模拟输入指定内容
+clear()           清除文本内容
+is_displayed()    判断该元素是否可见
+get_attribute()   获取标签属性值
+size           返回元素的尺寸
+text            返回元素文本
 
 鼠标控制
-在webdriver 中 鼠标操作都封装在ActionChains类中
-常见方法如下：
-方法	            描述
+在webdriver中鼠标操作都封装在ActionChains类中
+常见方法如下
+方法         描述
 click()	            单击左键
 context_click()	    单击右键
 double_click()	    双击
