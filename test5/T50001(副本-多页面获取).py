@@ -12,8 +12,8 @@ def re_1():  # 通过正则表达式把一个个图片的链接和名字给匹�
     global image
     parr = re.compile('src="(/u.*?)".alt="(.*?)"')
     image = re.findall(parr, response.text)
-    # for content in image:
-    #     print(content)
+    for content in image:
+        print(content)
 
 
 def os_1():  # 创建文件夹，保存内容
@@ -40,15 +40,15 @@ def os_1():  # 创建文件夹，保存内容
         print(name + ".jpg 获取成功······")
 
 
-for i in range(1, 6):
+for i in range(1, 10):
     response = requests.get(url=url, headers=headers)
     response.encoding = response.apparent_encoding
     if i == 1:  # 首个页面
         re_1()
-        os_1()
+        # os_1()
     else:  # 其他页面
         url = f"https://pic.netbian.com/index_{i}.html"
         re_1()
-        os_1()
+        # os_1()
 
 

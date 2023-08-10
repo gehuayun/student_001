@@ -8,3 +8,13 @@ https://blog.csdn.net/nav/python
 https://blog.csdn.net/nav/ai
 https://blog.csdn.net/nav/aigc-0
 https://blog.csdn.net/nav/big-data
+https://blog.csdn.net/nav/database
+https://blog.csdn.net/nav/algo
+https://blog.csdn.net/nav/avi
+https://blog.csdn.net/nav/cloud-native
+https://blog.csdn.net/nav/cloud
+https://blog.csdn.net/nav/advanced-technology
+https://blog.csdn.net/nav/open-source
+https://blog.csdn.net/nav/miniprog-0
+https://blog.csdn.net/nav/ops
+https://blog.csdn.net/nav/server
