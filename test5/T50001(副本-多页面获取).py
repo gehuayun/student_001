@@ -40,7 +40,7 @@ def os_1():  # 创建文件夹，保存内容
         print(name + ".jpg 获取成功······")
 
 
-for i in range(1, 10):
+for i in range(1, 5):
     response = requests.get(url=url, headers=headers)
     response.encoding = response.apparent_encoding
     if i == 1:  # 首个页面

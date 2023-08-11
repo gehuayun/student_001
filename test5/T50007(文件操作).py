@@ -15,18 +15,6 @@ t：文本模式，以文本方式读取或写入文件。
 递归访问文件夹：使用os.walk()函数可以递归访问文件夹，遍历文件夹下的所有子文件夹和文件。
 序列化和反序列化：Python中的序列化和反序列化操作可以将数据转换为二进制格式或者将二进制格式的数据转换为Python对象。常用的序列化模块包括pickle和json
 """)
-import os
-import xlrd.book  # 表格
-import xlwt
-
-path = "D:\工作\下载\测试3"
-name = "cs"
-with open(path + "/{}.txt".format(name), "wt") as txt:
-    txt.write(rec1)
-    txt.close()
-print(name + "写入成功")
-# os.remove(path + '\测试文本.txt')   # 删除文本
-
 rec2 = str("""
 Python 提供内置函数 open() 实现对文件的操作。操作步骤分三步，"打开-操作-关闭。
 " open(file, mode='r', encoding=None) # file 包含文件名的字符串，可以是绝对路径，可以是相对路径。 
@@ -43,7 +31,6 @@ import json
 dic = { "student" : [ {"name" : "xlh", "time" : "09:04"} ] } 
 with open('./dic.json', mode='w', encoding='utf-8') as f: json.dump(dic, f)
 """)
-
 rec3 = str("""
 在Python中，可以使用以下库来操作图片格式：
 
@@ -62,3 +49,19 @@ plt.imshow(img)
 plt.show()
 以上代码使用Matplotlib读取名为“image.jpg”的图片文件，并将其显示在图形窗口中。请确保已经安装了Matplotlib库，并在代码中指定正确的图片文件路径。
 """)
+
+path = 'D:\工作\下载\测试3'  # 文件地址
+name = "测试记事本1"
+with open(path + "/{}.txt".format(name), "w") as txt:
+    txt.write(rec3)
+    txt.close()
+print(name + "写入成功")
+# os.remove(path + f'\{name}.txt')   # 删除文本
+
+
+f = open('D:\工作\下载\测试3\测试记事本1.txt', 'r', encoding='utf8')
+
+for lines in f.readlines():
+    print(lines, end='')
+
+f.close()

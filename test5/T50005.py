@@ -1,25 +1,29 @@
+import appium
+import pip
 import requests
 import re
 import os
 
-url = "https://wwwbaidu.com/"
+url = "https://image.baidu.com/search/"
 headers = {
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
 }
 
 response = requests.get(url=url, headers=headers)
 # 通过发送请求成功response 通过（apparent_encoding）获取该网页的编码格式，并对response解码
 response.encoding = response.apparent_encoding
-print(response.text)
+# print(response.text)
 """
 . 表示除空格外任意字符（除\n外）
 * 表示匹配字符零次或多次
 ? 表示匹配字符零次或一次
 .*? 非贪婪匹配
 """
-# parr = re.compile('src="(/u.*?)".alt="(.*?)"')  # 匹配图片链接和图片名字
-# image = re.findall(parr, response.text)
-# print(image)
+#
+parr = re.compile('url="(//i.*?)')  # 匹配图片链接和图片名字
+image = re.findall(parr, response.text)
+for content in image:
+    print(content)
 
 '''
 path = "彼岸图网图片获取"

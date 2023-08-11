@@ -8,6 +8,8 @@ def firefox():
     driver1.maximize_window()  # 最大化浏览器窗口
     driver1.implicitly_wait(8)  # 设置隐式时间等待
     driver1.get("https://www.baidu.com")  # 地址栏输入百度地址
+    driver1.find_element(By.ID, 'kw').send_keys('office会自动下载软件吗')  # 搜索框
+    driver1.find_element(By.ID, 'su').click()
     time.sleep(10)
 
     print('火狐驱动完整，百度搜索')
@@ -39,6 +41,6 @@ def edge():
     driver3.quit()
 
 
-# firefox() #需调整
+# firefox()
 # chrome()
 # edge()

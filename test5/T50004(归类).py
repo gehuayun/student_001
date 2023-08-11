@@ -2,14 +2,17 @@ import requests
 import os
 import re
 
+c = 0
+
 
 # 通过正则表达式把一个个图片的链接和名字给匹配出来，存放到一个列表中
 def re_1():
-    global image
+    global image, c
     parr = re.compile('src="(/u.*?)".alt="(.*?)"')
     image = re.findall(parr, response.text)
     for content in image:
         print(content)
+        c += 1
 
 
 # 根据链接写入文件
@@ -42,7 +45,7 @@ if __name__ == '__main__':
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
     }
-    # 创建文件夹，保存内容
+    # 创建文件夹，保存内容  写入绝对路径
     path = "文件夹名称"
     # 文件的前缀
     qurl = "https://pic.netbian.com/"
@@ -56,3 +59,4 @@ if __name__ == '__main__':
             url = f"https://pic.netbian.com/index_{i}.html"
             re_1()
             # os_1()
+    print("下载图片总数量", c)
