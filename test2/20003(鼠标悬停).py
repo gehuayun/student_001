@@ -12,11 +12,12 @@ from selenium.webdriver.common.keys import Keys
 
 # # 将option作为参数添加到Chrome中
 # driver = webdriver.Chrome(option)
-driver = webdriver.Chrome()                                     # Chrome浏览器
-# driver = webdriver.Edge()                                       # Edge 浏览器
+# driver = webdriver.Chrome()                                     # Chrome浏览器
+driver = webdriver.Edge()                                       # Edge 浏览器
+# driver = webdriver.Firefox()                                    # Firefox 浏览器
 driver.maximize_window()                                        # 最大化页面
 driver.get('https://www.baidu.com')                             # 百度页面
-driver.implicitly_wait(10)                                      # 隐式等待
+driver.implicitly_wait(20)                                      # 隐式等待
 el = driver.find_element(By.ID, 's-usersetting-top')            # 定位鼠标悬停元素
 ActionChains(driver).move_to_element(el).perform()              # 鼠标悬停
 driver.find_element(By.XPATH, '//*[@id="s-user-setting-menu"]/div/a[2]/span').click()          # 定位高级搜索-弹框上的元素
