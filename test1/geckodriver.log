@@ -391,3 +391,255 @@ JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILUR
 1685410051709	geckodriver	INFO	Listening on 127.0.0.1:62530
 1685410143897	geckodriver	INFO	Listening on 127.0.0.1:64847
 1685427565670	geckodriver	INFO	Listening on 127.0.0.1:53028
+1693376437831	geckodriver	INFO	Listening on 127.0.0.1:63549
+1693376440893	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63550" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofileIbRnJ2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693376444680	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693376445771	Marionette	INFO	Listening on port 63595
+WebDriver BiDi listening on ws://127.0.0.1:63550
+Read port: 63595
+1693376446296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63550/devtools/browser/75f26550-0493-4cc5-8878-f6867b1c537e
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693376464191	Marionette	INFO	Stopped listening on port 63595
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_2939e20.js, line 82: Script terminated by timeout at:
+i@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_2939e20.js:82:95
+o@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_2939e20.js:81:317
+
+Dynamically enable window occlusion 1
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1695693846076	geckodriver	INFO	Listening on 127.0.0.1:62271
+1695693849129	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofileDIHNws"
+1695878477856	geckodriver	INFO	Listening on 127.0.0.1:62676
+1695878480924	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62677" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofileHfibfS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695878484557	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695878485048	Marionette	INFO	Listening on port 62725
+Read port: 62725
+WebDriver BiDi listening on ws://127.0.0.1:62677
+1695878485171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62677/devtools/browser/8db305d0-15b1-427a-9972-c19c48360196
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1695878501307	Marionette	INFO	Stopped listening on port 62725
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_46dc1ea.js, line 81: Script terminated by timeout at:
+o@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_46dc1ea.js:81:298
+
+Dynamically enable window occlusion 1
+1695883658502	geckodriver	INFO	Listening on 127.0.0.1:60522
+1695883661586	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofileivkzja"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695883662903	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695883663285	Marionette	INFO	Listening on port 60541
+WebDriver BiDi listening on ws://127.0.0.1:60523
+Read port: 60541
+1695883663703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60523/devtools/browser/4f7bf03c-0a1f-47f9-a0fe-a22a2c2faa56
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1695883678547	Marionette	INFO	Stopped listening on port 60541
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_46dc1ea.js, line 81: Script terminated by timeout at:
+o@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_46dc1ea.js:81:298
+
+Dynamically enable window occlusion 1
+1695883695970	geckodriver	INFO	Listening on 127.0.0.1:60671
+1695883699023	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60672" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofile5kPQYe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695883699907	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695883700244	Marionette	INFO	Listening on port 60686
+WebDriver BiDi listening on ws://127.0.0.1:60672
+Read port: 60686
+1695883700463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60672/devtools/browser/35a6661f-162d-45b1-908c-17dbaf04f210
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1695883715011	Marionette	INFO	Stopped listening on port 60686
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/search-sug_947981a.js, line 16: Script terminated by timeout at:
+startCircle/e.timer<@https://pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/search-sug_947981a.js:16:104
+
+Dynamically enable window occlusion 1
+1696746906659	geckodriver	INFO	Listening on 127.0.0.1:56551
+1696746909851	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56552" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofile2UxSmD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696746914076	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1696746914477	Marionette	INFO	Listening on port 56592
+WebDriver BiDi listening on ws://127.0.0.1:56552
+Read port: 56592
+1696746914836	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56552/devtools/browser/9987a325-c5f7-45d4-bc81-4174ada4d1f3
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1696746931562	Marionette	INFO	Stopped listening on port 56592
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/pc-tts-player_4205f55.js, line 105: Script terminated by timeout at:
+t.prototype._watchPlayingId/<@https://pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/pc-tts-player_4205f55.js:105:318
+
+Dynamically enable window occlusion 1
+1693376437831	geckodriver	INFO	Listening on 127.0.0.1:63549
+1693376440893	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63550" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofileIbRnJ2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693376444680	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693376445771	Marionette	INFO	Listening on port 63595
+WebDriver BiDi listening on ws://127.0.0.1:63550
+Read port: 63595
+1693376446296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63550/devtools/browser/75f26550-0493-4cc5-8878-f6867b1c537e
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693376464191	Marionette	INFO	Stopped listening on port 63595
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_2939e20.js, line 82: Script terminated by timeout at:
+i@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_2939e20.js:82:95
+o@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_2939e20.js:81:317
+
+Dynamically enable window occlusion 1
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 3124, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1695693846076	geckodriver	INFO	Listening on 127.0.0.1:62271
+1695693849129	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofileDIHNws"
+1695878477856	geckodriver	INFO	Listening on 127.0.0.1:62676
+1695878480924	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62677" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofileHfibfS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695878484557	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695878485048	Marionette	INFO	Listening on port 62725
+Read port: 62725
+WebDriver BiDi listening on ws://127.0.0.1:62677
+1695878485171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62677/devtools/browser/8db305d0-15b1-427a-9972-c19c48360196
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1695878501307	Marionette	INFO	Stopped listening on port 62725
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_46dc1ea.js, line 81: Script terminated by timeout at:
+o@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_46dc1ea.js:81:298
+
+Dynamically enable window occlusion 1
+1695883658502	geckodriver	INFO	Listening on 127.0.0.1:60522
+1695883661586	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofileivkzja"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695883662903	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695883663285	Marionette	INFO	Listening on port 60541
+WebDriver BiDi listening on ws://127.0.0.1:60523
+Read port: 60541
+1695883663703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60523/devtools/browser/4f7bf03c-0a1f-47f9-a0fe-a22a2c2faa56
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1695883678547	Marionette	INFO	Stopped listening on port 60541
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_46dc1ea.js, line 81: Script terminated by timeout at:
+o@https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_46dc1ea.js:81:298
+
+Dynamically enable window occlusion 1
+1695883695970	geckodriver	INFO	Listening on 127.0.0.1:60671
+1695883699023	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60672" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofile5kPQYe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695883699907	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695883700244	Marionette	INFO	Listening on port 60686
+WebDriver BiDi listening on ws://127.0.0.1:60672
+Read port: 60686
+1695883700463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60672/devtools/browser/35a6661f-162d-45b1-908c-17dbaf04f210
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1695883715011	Marionette	INFO	Stopped listening on port 60686
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/search-sug_947981a.js, line 16: Script terminated by timeout at:
+startCircle/e.timer<@https://pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/search-sug_947981a.js:16:104
+
+Dynamically enable window occlusion 1
+1696746906659	geckodriver	INFO	Listening on 127.0.0.1:56551
+1696746909851	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56552" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A\\AppData\\Local\\Temp\\rust_mozprofile2UxSmD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696746914076	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1696746914477	Marionette	INFO	Listening on port 56592
+WebDriver BiDi listening on ws://127.0.0.1:56552
+Read port: 56592
+1696746914836	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56552/devtools/browser/9987a325-c5f7-45d4-bc81-4174ada4d1f3
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1696746931562	Marionette	INFO	Stopped listening on port 56592
+JavaScript warning: https://pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/pc-tts-player_4205f55.js, line 105: Script terminated by timeout at:
+t.prototype._watchPlayingId/<@https://pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/pc-tts-player_4205f55.js:105:318
+
+Dynamically enable window occlusion 1

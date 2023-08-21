@@ -41,6 +41,6 @@ def edge():
     driver3.quit()
 
 
-# firefox()
-# chrome()
-# edge()
+firefox()
+chrome()
+edge()

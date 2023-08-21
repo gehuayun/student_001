@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!图像插入
+src 图片名及地址
+alt 图片加载失败提示
+title 文字提示属性
+width 图片宽度
+height 图片高度
+border 边框线粗细>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body background="./a.jpg" style="background-repseat:no-repeat;background-size:100% 100%;
+background-attachment:fixed">
+<h3>会游泳的小猫</h3>
+<img src="./a.jpg" title="图片" width="300"/>
+<img src="./a.jpg" width="380" height="270" border="10"/>
+<h3>html标签实例-表格标签</h3>
+<table border="1" width="700" cellspacing="0" cellpadding="4">
+    <!边框，宽度，单元格间距，单元格填充>
+    <caption><h3>测试记录表格</h3></caption>
+    <tr>
+        <th>序号</th>
+        <th>标题</th>
+        <th>开始时间</th>
+        <th>结束时间</th>
+    </tr>
+<!--  rowspan 合并下方单元格
+    colspan 合并右侧单元格
+    width 宽度
+    height 长度
+    align 对齐
+    valign
+    bgcolor -->
+    <tr>
+        <td>cs_1</td>
+        <td>网页测试1</td>
+        <td>2023年12月27日13:37:09</td>
+        <td>2023年12月27日15:37:27</td>
+    </tr>
+    <tr>
+        <td>cs_2</td>
+        <td>网页测试2</td>
+        <td>2023年12月27日13:37:09</td>
+        <td rowspan="2">2023年12月27日15:37:27</td>
+    </tr>
+        <tr>
+        <td>cs_3</td>
+        <td>网页测试3</td>
+    </tr>
+    <tr>
+        <td>cs_4</td>
+        <td colspan="2">网页测试4</td>
+<!--        <td>2023年12月27日13:37:09</td>-->
+<!--        <td>2023年12月27日15:37:27</td>-->
+    </tr>
+</table>
+cs
+<br/>
+<b>cs1</b>
+<hr/>
+fds1
+</body>
+</html>

@@ -14,11 +14,12 @@ from selenium.webdriver.common.keys import Keys
 # driver = webdriver.Chrome(option)
 driver = webdriver.Chrome()                                     # Chrome浏览器
 # driver = webdriver.Edge()                                       # Edge 浏览器
+# driver = webdriver.Firefox()                                    # Firefox 浏览器
 driver.maximize_window()                                        # 最大化页面
 driver.get('https://www.baidu.com')                             # 百度页面
-driver.implicitly_wait(10)                                      # 隐式等待
+driver.implicitly_wait(20)                                      # 隐式等待
 el = driver.find_element(By.ID, 's-usersetting-top')            # 定位鼠标悬停元素
-ActionChains(driver).move_to_element(el).perform()              # 鼠标悬停
+ActionChains(driver).move_to_element(el).perform()              # 鼠标悬停 ### 暂停页面获取 f8 或 ctrl + \
 driver.find_element(By.XPATH, '//*[@id="s-user-setting-menu"]/div/a[2]/span').click()          # 定位高级搜索-弹框上的元素
 driver.find_element(By.ID, 'adv_keyword').send_keys('百度一下')                                  # 输入框输入信息
 driver.find_element(By.XPATH, '//*[@id="adv-setting-8"]/input[2]').click()                     # 点击搜索按钮
@@ -33,7 +34,7 @@ driver.find_element(By.ID, 'su').click()                                        
 sleep(3)
 driver.switch_to.window(handles[1])                                              # 切换到 1 页面
 driver.find_element(By.ID, 'kw').clear()                                         # 清空搜索框
-driver.find_element(By.ID, 'kw').send_keys('台风')                                # 输入搜索内容
+driver.find_element(By.ID, 'kw').send_keys('雪')                                # 输入搜索内容
 driver.find_element(By.ID, 'su').click()                                         # 点击进行搜索
 sleep(3)
 driver.quit()  # 关闭浏览器

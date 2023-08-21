@@ -33,6 +33,14 @@ def initGame():
 '''主函数'''
 
 
+def Food(game_images, param, SCREENSIZE):
+    pass
+
+
+def Hero(param, position):
+    pass
+
+
 def main():
     # 初始化
     screen, game_images, game_sounds = initGame()
@@ -111,7 +119,8 @@ def main():
     fp = open(cfg.HIGHEST_SCORE_RECORD_FILEPATH, 'w')
     fp.write(str(highest_score))
     fp.close()
-    return show EndGameInterface(screen, cfg, score, highest_score)
+    return show 
+    EndGameInterface(screen, cfg, score, highest_score)
 
 
 '''run'''

@@ -120,7 +120,7 @@ if __name__ == '__main__':
     url = "https://www.csdn.net/"
     spider = Spider(url)
     # 传入要爬取的子链接数量52
-    urllist = spider.crawler(20)
+    urllist = spider.crawler(10)
     writetofile(urllist)
 """
 提示：
