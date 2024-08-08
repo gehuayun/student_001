@@ -18,7 +18,7 @@ def re_1():  # 通过正则表达式把一个个图片的链接和名字给匹�
 
 def os_1():  # 创建文件夹，保存内容
     global image
-    path = "E:\工作\下载\测试4"
+    path = "多页获取"
     if not os.path.isdir(path):
         os.mkdir(path)  # 判断是否存在，若不存在则直接创建文件夹
     # 对列表进行遍历
@@ -40,15 +40,15 @@ def os_1():  # 创建文件夹，保存内容
         print(name + ".jpg 获取成功······")
 
 
-for i in range(1, 10):   # 页数遍历
+for i in range(1, 5):
     response = requests.get(url=url, headers=headers)
     response.encoding = response.apparent_encoding
     if i == 1:  # 首个页面
         re_1()
-        os_1()
+        # os_1()
     else:  # 其他页面
         url = f"https://pic.netbian.com/index_{i}.html"
         re_1()
-        os_1()
+        # os_1()
 
 
